@@ -4,7 +4,9 @@
 # Requirements
 > [!IMPORTANT]
 > Requires [ChaosHelper 2.2.5.0](https://github.com/Oonej/ChaosHelper/releases/tag/2.2.5.0)
+
 > Requires [Mag-Tools 2.1.6](https://github.com/Mag-nus/Mag-Plugins/releases/tag/Mag-Tools-v2.1.6)
+
 > Requires [Utility Belt 0.2.7](https://utilitybelt.gitlab.io/releases/)
 
 # Installation
