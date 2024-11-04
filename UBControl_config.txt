@@ -23,7 +23,7 @@ Basic_Button_21,Idle Peace Mode On, /vt opt set idlepeacemode true
 Basic_Button_22,Idle Peace Mode Off, /vt opt set idlepeacemode false
 Basic_Button_23,CombatState Peace, /mt combatstate peace
 Basic_Button_24,CombatState Magic, /mt combatstate magic
-Advanced_Button_01,Use Closest NPC, /ub mexec actiontryuseitem[wobjectfindnearestbyobjectclass[37]]
+Advanced_Button_01,Use Closest NPC,2500 /ub mexec actiontryuseitem[wobjectfindnearestbyobjectclass[37]]
 Advanced_Button_02,Use Closest Vendor, /ub mexec actiontryuseitem[wobjectfindnearestbyobjectclass[25]]
 Advanced_Button_03,Corners On, /vt opt set followaroundcorners true
 Advanced_Button_04,Corners Off, /vt opt set followaroundcorners false
