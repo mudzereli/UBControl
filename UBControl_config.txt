@@ -1,0 +1,183 @@
+LAYOUT: UBControl.Layout
+Basic_Button_01,Follow,/ub mexec chatbox[`/ub bc /ub follow `+wobjectgetname[wobjectgetplayer[]]]
+Basic_Button_02,Stay, /vt nav load stopfollow
+Basic_Button_03,NOTSET,#Command
+Basic_Button_04,NOTSET,#Command
+Basic_Button_05,Force Buff, /vt forcebuff
+Basic_Button_06,Cancel Buff, /vt cancelforcebuff
+Basic_Button_07,All On, /ub mexec chatbox[`/vt opt set enablecombat true`]&&chatbox[`/vt opt set enablebuffing true`]&&chatbox[`/vt opt set enablenav true`]&&chatbox[`/vt opt set enablelooting true`]&&chatbox[`/vt start`]
+Basic_Button_08,All Off, /ub mexec chatbox[`/vt opt set enablecombat false`]&&chatbox[`/vt opt set enablebuffing false`]&&chatbox[`/vt opt set enablenav false`]&&chatbox[`/vt opt set enablelooting false`]
+Basic_Button_09,Combat On, /vt opt set enablecombat true
+Basic_Button_10,Combat Off, /vt opt set enablecombat false
+Basic_Button_11,Buff On, /vt opt set enablebuffing true
+Basic_Button_12,Buff Off, /vt opt set enablebuffing false
+Basic_Button_13,Nav On, /vt opt set enablenav true
+Basic_Button_14,Nav Off, /vt opt set enablenav false
+Basic_Button_15,Loot On, /vt opt set enablelooting true
+Basic_Button_16,Loot Off, /vt opt set enablelooting false
+Basic_Button_17,Loot Only Rares On, /vt opt set lootonlyrarecorpses true
+Basic_Button_18,Loot Only Rares Off, /vt opt set lootonlyrarecorpses false
+Basic_Button_19,Summon On, /vt opt set summonpets true
+Basic_Button_20,Summon Off, /vt opt set summonpets false
+Basic_Button_21,Idle Peace Mode On, /vt opt set idlepeacemode true
+Basic_Button_22,Idle Peace Mode Off, /vt opt set idlepeacemode false
+Basic_Button_23,CombatState Peace, /mt combatstate peace
+Basic_Button_24,CombatState Magic, /mt combatstate magic
+Advanced_Button_01,Use Closest NPC, /ub mexec actiontryuseitem[wobjectfindnearestbyobjectclass[37]]
+Advanced_Button_02,Use Closest Vendor, /ub mexec actiontryuseitem[wobjectfindnearestbyobjectclass[25]]
+Advanced_Button_03,Corners On, /vt opt set followaroundcorners true
+Advanced_Button_04,Corners Off, /vt opt set followaroundcorners false
+Advanced_Button_05,Jiggle On, /vt opt set dojiggle true
+Advanced_Button_06,Jiggle Off, /vt opt set dojiggle false
+Advanced_Button_07,Nav Boost On, /vt opt set navpriorityboost true
+Advanced_Button_08,Nav Boost Off, /vt opt set navpriorityboost false
+Advanced_Button_09,Loot Boost On, /vt opt set lootpriorityboost true
+Advanced_Button_10,Loot Boost Off, /vt opt set lootpriorityboost false
+Advanced_Button_11,Open Doors On, /vt opt set opendoors true
+Advanced_Button_12,Open Doors Off, /vt opt set opendoors false
+Advanced_Button_13,Autostack On, /vt opt set autostack true
+Advanced_Button_14,Autostack Off, /vt opt set autostack false
+Advanced_Button_15,Autocram On, /vt opt set autocram true
+Advanced_Button_16,Autocram Off, /vt opt set autocram false
+Advanced_Button_17,Use Dispel Items On, /vt opt set usedispelitems true
+Advanced_Button_18,Use Dispel Items Off, /vt opt set usedispelitems false
+Advanced_Button_19,Cast Dispel Self On, /vt opt set castdispelself true
+Advanced_Button_20,Cast Dispel Self Off, /vt opt set castdispelself false
+Advanced_Button_21,Rebuff When Idle On, /vt opt set idlebufftopoff true
+Advanced_Button_22,Rebuff When Idle Off, /vt opt set idlebufftopoff false
+Advanced_Button_23,Attack Height Low, /vt opt set defaultmeleeattackheight 3
+Advanced_Button_24,Attack Height Medium, /vt opt set defaultmeleeattackheight 2
+Advanced_Button_25,Attack Height High, /vt opt set defaultmeleeattackheight 1
+Advanced_Button_26,Fastcast Buffs On, /vt opt set fastcastbuffs true
+Advanced_Button_27,Fastcast Buffs Off, /vt opt set fastcastbuffs false
+Advanced_Button_28,Breakable Turn On, /vt opt set usebreakableturnto true
+Advanced_Button_29,Breakable Turn Off, /vt opt set usebreakableturnto false
+Advanced_Button_30,Shoot At Walls Off, /vt opt set useprojectileawareness true
+Advanced_Button_31,Shoot At Walls On, /vt opt set useprojectileawareness false
+Recalls_Button_01,Use Closest Portal, /ub closestportal
+Recalls_Button_02,NOTSET,#command
+Recalls_Button_03,Marketplace, /mp
+Recalls_Button_04,/Lifestone, /ls
+Recalls_Button_05,[9561], /ub mexec $spell=`Primary Portal Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_06,[9562], /ub mexec $spell=`Secondary Portal Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_07,[10733], /ub mexec $spell=`Portal Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_08,[10725], /ub mexec $spell=`Recall Aphus Lassel`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_09,[10727], /ub mexec $spell=`Recall the Sanctuary`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_10,[10728], /ub mexec $spell=`Recall to the Singularity Caul`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_11,[25233], /ub mexec $spell=`Glenden Wood Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_12,[10724], /ub mexec $spell=`Aerlinthe Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_13,[10726], /ub mexec $spell=`Mount Lethe Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_14,[10729], /ub mexec $spell=`Ulgrim's Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_15,[26219], /ub mexec $spell=`Bur Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_16,[26325], /ub mexec $spell=`Paradox-touched Olthoi Infested Area Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_17,[26293], /ub mexec $spell=`Call of the Mhoire Forge`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_18,[26329], /ub mexec $spell=`Colosseum Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_19,[28169], /ub mexec $spell=`Gear Knight Invasion Area Camp Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_20,[28659], /ub mexec $spell=`Lost City of Neftet Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_21,NOTSET,[19347]
+Recalls_Button_22,[28915], /ub use Facility Hub Portal Gem
+Recalls_Button_23,[28187], /ub mexec $spell=`Rynthid Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_24,[9560], /ub mexec $spell=`Lifestone Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_25,[9441], /ub mexec $spell=`Lifestone Sending`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_26,[8588], /ah
+Recalls_Button_27,[8590], /hom
+Recalls_Button_28,[8383], /hr
+Recalls_Button_29,[25233], /ub mexec $spell=`Viridian Rise Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_30,[25233], /ub mexec $spell=`Viridian Rise Great Tree Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_31,[26524], /ub mexec $spell=`Celestial Hand Stronghold Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_32,[26525], /ub mexec $spell=`Eldrytch Web Stronghold Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_33,[26526], /ub mexec $spell=`Radiant Blood Stronghold Recall`&&chatbox[`/ub mexec actiontryequipanywand[]`]&&chatbox[`/ub delay 2000 /mt combatstate magic`]&&chatbox[`/ub delay 3000 /mt cast `+$spell]
+Recalls_Button_34,NOTSET,#command
+Rngs_Button_01,Atk Range 5, /vt opt set attackdistance 0.021
+Rngs_Button_02,Atk Range 10, /vt opt set attackdistance 0.042
+Rngs_Button_03,Atk Range 15, /vt opt set attackdistance 0.063
+Rngs_Button_04,Atk Range 20, /vt opt set attackdistance 0.084
+Rngs_Button_05,Atk Range 25, /vt opt set attackdistance 0.105
+Rngs_Button_06,Atk Range 30, /vt opt set attackdistance 0.126
+Rngs_Button_07,Atk Range 35, /vt opt set attackdistance 0.147
+Rngs_Button_08,Atk Range 40, /vt opt set attackdistance 0.168
+Rngs_Button_09,Atk Range 45, /vt opt set attackdistance 0.189
+Rngs_Button_10,Atk Range Max, /vt opt set attackdistance 0.294
+Rngs_Button_11,NOTSET,#command
+Rngs_Button_12,Approach 0, /vt opt set approachdistance 0
+Rngs_Button_13,Approach 5, /vt opt set approachdistance 0.021
+Rngs_Button_14,Approach 10, /vt opt set approachdistance 0.042
+Rngs_Button_15,Approach 20, /vt opt set approachdistance 0.084
+Rngs_Button_16,Approach 30, /vt opt set approachdistance 0.126
+Rngs_Button_17,Approach 45, /vt opt set approachdistance 0.189
+Rngs_Button_18,Approach Max, /vt opt set approachdistance 0.294
+Rngs_Button_19,NOTSET,#command
+Rngs_Button_20,Follow 2, /vt opt set navclosestoprange 0.0083333
+Rngs_Button_21,Follow 5, /vt opt set navclosestoprange 0.021
+Rngs_Button_22,Follow 10, /vt opt set navclosestoprange 0.042
+Rngs_Button_23,Follow 25, /vt opt set navclosestoprange 0.105
+Rngs_Button_24,Follow 35, /vt opt set navclosestoprange 0.147
+Rngs_Button_25,Follow 50, /vt opt set navclosestoprange 0.210
+Rngs_Button_26,Follow Max, /vt opt set navclosestoprange 0.294
+Rngs_Button_27,NOTSET,#command
+Rngs_Button_28,Custom Pet Range On, /vt opt set petrangemode 1
+Rngs_Button_29,Custom Pet Range Off, /vt opt set petrangemode 0
+Rngs_Button_30,Pet Range 5, /vt opt set petcustomrange 0.021
+Rngs_Button_31,Pet Range 10, /vt opt set petcustomrange 0.042
+Rngs_Button_32,Pet Range 15, /vt opt set petcustomrange 0.063
+Jump_Button_01,Jump 100%, /ub jumpw 1000
+Jump_Button_02,NOTSET,#command
+Jump_Button_03,Tap Jump, /ub jump
+Jump_Button_04,NOTSET,#command
+Jump_Button_05,NOTSET,#command
+Jump_Button_06,NOTSET,#command
+Jump_Button_07,Jump 75%, /ub jumpw 750
+Jump_Button_08,Jump 50%, /ub jumpw 500
+Jump_Button_09,NOTSET,#command
+Jump_Button_10,NOTSET,#command
+Jump_Button_11,NOTSET,#command
+Jump_Button_12,NOTSET,#command
+Jump_Button_13,NOTSET,#command
+Jump_Button_14,Jump 25%, /ub jumpw 250
+Jump_Button_15,NOTSET,#command
+Jump_Button_16,NOTSET,#command
+Jump_Button_17,NOTSET,#command
+Jump_Button_18,NOTSET,#command
+Jump_Button_19,NW, /ub face 315
+Jump_Button_20,N, /ub face 0
+Jump_Button_21,NE, /ub face 45
+Jump_Button_22,NOTSET,#command
+Jump_Button_23,NOTSET,#command
+Jump_Button_24,NOTSET,#command
+Jump_Button_25,NOTSET,#command
+Jump_Button_26,NOTSET,#command
+Jump_Button_27,W, /ub face 270
+Jump_Button_28,NOTSET,#command
+Jump_Button_29,E, /ub face 90
+Jump_Button_30,NOTSET,#command
+Jump_Button_31,NOTSET,#command
+Jump_Button_32,NOTSET,#command
+Jump_Button_33,NOTSET,#command
+Jump_Button_34,NOTSET,#command
+Jump_Button_35,SW, /ub face 225
+Jump_Button_36,S, /ub face 180
+Jump_Button_37,SE, /ub face 135
+Jump_Button_38,NOTSET,#command
+Jump_Button_39,NOTSET,#command
+Jump_Button_40,Shift Jump 100%, /ub jumpsw 1000
+Jump_Button_41,NOTSET,#command
+Jump_Button_42,NOTSET,#command
+Jump_Button_43,NOTSET,#command
+Jump_Button_44,Shift Jump 75%, /ub jumpsw 750
+Jump_Button_45,Shift Jump 50%, /ub jumpsw 500
+Jump_Button_46,NOTSET,#command
+Jump_Button_47,NOTSET,#command
+Jump_Button_48,NOTSET,#command
+Jump_Button_49,Shift Jump 25%, /ub jumpsw 250
+Jump_Button_50,Tap Jump Fwd, /ub jumpw 50
+Jump_Button_51,NOTSET,#command
+Jump_Button_52,Shift Tap Jmp Fwd, /ub jumpsw 50
+Misc_Button_01,Log Off, /mt logout
+Misc_Button_02,Exit Game, /mt quit
+Misc_Button_03,Refresh Profiles, /vt refresh
+Misc_Button_04,NOTSET,This button does NOTHING
+Misc_Button_05,NOTSET,#command
+Misc_Button_06,NOTSET,/vt meta load Unlimited_IBControl
+Misc_Button_07,NOTSET,#echo /vt meta load Unlimited_IBControl
+Misc_Button_08,NOTSET,#command
+Misc_Button_09,NOTSET,This button does NOTHING
