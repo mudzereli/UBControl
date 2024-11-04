@@ -9,9 +9,10 @@
 
 # Installation
 - Download the [UBControl Files](https://github.com/mudzereli/UBControl/archive/refs/heads/main.zip)
-- Unzip `UBControl.Layout` and `UBControl_config.txt` to your ChaosHelper folder
+- Open the downloaded zip file
+- Move `UBControl.Layout` and `UBControl_config.txt` to your ChaosHelper folder
 - Once in game, Open Chaos Helper
-    - Set your Chat Command to `/ub bc`
-    - Set your Config File to `UBControl_config.txt`
-    - Hit the [Load] Button
-- You are done and Chaos Helper should now control your characters without a meta.
+    - Set your **Chat Command** to `/ub bc`
+    - Set your **Config File** to `UBControl_config.txt`
+    - Hit the **[Load]** Button
+- You are done! Chaos Helper should now control your characters without a meta.
