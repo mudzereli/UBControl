@@ -56,7 +56,7 @@ Adv_Button_30,Breakable Turn On, /vt opt set usebreakableturnto true
 Adv_Button_31,Breakable Turn Off, /vt opt set usebreakableturnto false
 Adv_Button_32,Shoot At Walls Off, /vt opt set useprojectileawareness true
 Adv_Button_33,Shoot At Walls On, /vt opt set useprojectileawareness false
-Recalls_Button_01,Use Closest Portal, /ub closestportal
+Recalls_Button_01,Use Closest Portal, /ub mexec actiontryuseitem[wobjectfindnearestbyobjectclass[14]]
 Recalls_Button_02,NOTSET,#command
 Recalls_Button_03,Marketplace, /mp
 Recalls_Button_04,/Lifestone, /ls
