@@ -32,12 +32,12 @@ Button_21: 1
 Button_22: 1
 Button_23: 1
 Button_24: 1
-tab: Advanced 
+tab: Adv 
 tabvisible: false
-tabsize: 260, 390
+tabsize: 260, 410
 tabposition: 390, 50
 cols: 2  
-rows: 17
+rows: 18
 Button_01: 1
 Button_02: 1
 Button_03: 1
@@ -69,6 +69,8 @@ Button_28: 1
 Button_29: 1
 Button_30: 1
 Button_31: 1
+Button_32: 1
+Button_33: 1
 tab: Recalls 
 tabvisible: false
 tabsize: 270, 270

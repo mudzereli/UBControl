@@ -23,37 +23,39 @@ Basic_Button_21,Idle Peace Mode On, /vt opt set idlepeacemode true
 Basic_Button_22,Idle Peace Mode Off, /vt opt set idlepeacemode false
 Basic_Button_23,CombatState Peace, /mt combatstate peace
 Basic_Button_24,CombatState Magic, /mt combatstate magic
-Advanced_Button_01,Use Closest NPC,2500 /ub mexec actiontryuseitem[wobjectfindnearestbyobjectclass[37]]
-Advanced_Button_02,Use Closest Vendor, /ub mexec actiontryuseitem[wobjectfindnearestbyobjectclass[25]]
-Advanced_Button_03,Corners On, /vt opt set followaroundcorners true
-Advanced_Button_04,Corners Off, /vt opt set followaroundcorners false
-Advanced_Button_05,Jiggle On, /vt opt set dojiggle true
-Advanced_Button_06,Jiggle Off, /vt opt set dojiggle false
-Advanced_Button_07,Nav Boost On, /vt opt set navpriorityboost true
-Advanced_Button_08,Nav Boost Off, /vt opt set navpriorityboost false
-Advanced_Button_09,Loot Boost On, /vt opt set lootpriorityboost true
-Advanced_Button_10,Loot Boost Off, /vt opt set lootpriorityboost false
-Advanced_Button_11,Open Doors On, /vt opt set opendoors true
-Advanced_Button_12,Open Doors Off, /vt opt set opendoors false
-Advanced_Button_13,Autostack On, /vt opt set autostack true
-Advanced_Button_14,Autostack Off, /vt opt set autostack false
-Advanced_Button_15,Autocram On, /vt opt set autocram true
-Advanced_Button_16,Autocram Off, /vt opt set autocram false
-Advanced_Button_17,Use Dispel Items On, /vt opt set usedispelitems true
-Advanced_Button_18,Use Dispel Items Off, /vt opt set usedispelitems false
-Advanced_Button_19,Cast Dispel Self On, /vt opt set castdispelself true
-Advanced_Button_20,Cast Dispel Self Off, /vt opt set castdispelself false
-Advanced_Button_21,Rebuff When Idle On, /vt opt set idlebufftopoff true
-Advanced_Button_22,Rebuff When Idle Off, /vt opt set idlebufftopoff false
-Advanced_Button_23,Attack Height Low, /vt opt set defaultmeleeattackheight 3
-Advanced_Button_24,Attack Height Medium, /vt opt set defaultmeleeattackheight 2
-Advanced_Button_25,Attack Height High, /vt opt set defaultmeleeattackheight 1
-Advanced_Button_26,Fastcast Buffs On, /vt opt set fastcastbuffs true
-Advanced_Button_27,Fastcast Buffs Off, /vt opt set fastcastbuffs false
-Advanced_Button_28,Breakable Turn On, /vt opt set usebreakableturnto true
-Advanced_Button_29,Breakable Turn Off, /vt opt set usebreakableturnto false
-Advanced_Button_30,Shoot At Walls Off, /vt opt set useprojectileawareness true
-Advanced_Button_31,Shoot At Walls On, /vt opt set useprojectileawareness false
+Adv_Button_01,Use Closest NPC,2500 /ub mexec actiontryuseitem[wobjectfindnearestbyobjectclass[37]]
+Adv_Button_02,Use Closest Vendor, /ub mexec actiontryuseitem[wobjectfindnearestbyobjectclass[25]]
+Adv_Button_03,Corners On, /vt opt set followaroundcorners true
+Adv_Button_04,Corners Off, /vt opt set followaroundcorners false
+Adv_Button_05,Jiggle On, /vt opt set dojiggle true
+Adv_Button_06,Jiggle Off, /vt opt set dojiggle false
+Adv_Button_07,Nav Boost On, /vt opt set navpriorityboost true
+Adv_Button_08,Nav Boost Off, /vt opt set navpriorityboost false
+Adv_Button_09,Loot Boost On, /vt opt set lootpriorityboost true
+Adv_Button_10,Loot Boost Off, /vt opt set lootpriorityboost false
+Adv_Button_11,Open Doors On, /vt opt set opendoors true
+Adv_Button_12,Open Doors Off, /vt opt set opendoors false
+Adv_Button_13,Autostack On, /vt opt set autostack true
+Adv_Button_14,Autostack Off, /vt opt set autostack false
+Adv_Button_15,Autocram On, /vt opt set autocram true
+Adv_Button_16,Autocram Off, /vt opt set autocram false
+Adv_Button_17,Use Dispel Items On, /vt opt set usedispelitems true
+Adv_Button_18,Use Dispel Items Off, /vt opt set usedispelitems false
+Adv_Button_19,Cast Dispel Self On, /vt opt set castdispelself true
+Adv_Button_20,Cast Dispel Self Off, /vt opt set castdispelself false
+Adv_Button_21,Rebuff When Idle On, /vt opt set idlebufftopoff true
+Adv_Button_22,Rebuff When Idle Off, /vt opt set idlebufftopoff false
+Adv_Button_23,Attack Height Low, /vt opt set defaultmeleeattackheight 3
+Adv_Button_24,Attack Height Medium, /vt opt set defaultmeleeattackheight 2
+Adv_Button_25,Attack Height High, /vt opt set defaultmeleeattackheight 1
+Adv_Button_26,Create Fellow,/ub mexec chatbox[`/mt fellow create fellow`]&&chatbox[`/ub bc 1000 /ub mexec chatbox[\`/ub bc /mt fellow recruit \`+wobjectgetname[wobjectgetplayer[]]]`]
+Adv_Button_27,Disband Fellow, /mt fellow disband
+Adv_Button_28,Fastcast Buffs On, /vt opt set fastcastbuffs true
+Adv_Button_29,Fastcast Buffs Off, /vt opt set fastcastbuffs false
+Adv_Button_30,Breakable Turn On, /vt opt set usebreakableturnto true
+Adv_Button_31,Breakable Turn Off, /vt opt set usebreakableturnto false
+Adv_Button_32,Shoot At Walls Off, /vt opt set useprojectileawareness true
+Adv_Button_33,Shoot At Walls On, /vt opt set useprojectileawareness false
 Recalls_Button_01,Use Closest Portal, /ub closestportal
 Recalls_Button_02,NOTSET,#command
 Recalls_Button_03,Marketplace, /mp
