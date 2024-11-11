@@ -48,7 +48,7 @@ Adv_Button_22,Rebuff When Idle Off, /vt opt set idlebufftopoff false
 Adv_Button_23,Attack Height Low, /vt opt set defaultmeleeattackheight 3
 Adv_Button_24,Attack Height Medium, /vt opt set defaultmeleeattackheight 2
 Adv_Button_25,Attack Height High, /vt opt set defaultmeleeattackheight 1
-Adv_Button_26,Create Fellow,/ub mexec chatbox[`/mt fellow create fellow`]&&chatbox[`/ub bc 1000 /ub mexec chatbox[\`/ub bc /mt fellow recruit \`+wobjectgetname[wobjectgetplayer[]]]`]
+Adv_Button_26,Create Fellow,/ub mexec chatbox[`/mt fellow create fellow`]&&chatbox[`/ub bc 500 /ub mexec chatbox[\`/ub bc /mt fellow recruit \`+wobjectgetname[wobjectgetplayer[]]]`]
 Adv_Button_27,Disband Fellow, /mt fellow disband
 Adv_Button_28,Fastcast Buffs On, /vt opt set fastcastbuffs true
 Adv_Button_29,Fastcast Buffs Off, /vt opt set fastcastbuffs false
